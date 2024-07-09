@@ -2,12 +2,10 @@ texto = 'O Python é uma linguagem de programação amplamente usada em aplicaç
 
 i = 0
 
-repeticoes = 0
-
 tamanho_string = len(texto)
 
 while i < tamanho_string:
     print(f'*{texto[i]}*')
 
     i += 1 
-    repeticoes += 1
+   
